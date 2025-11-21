@@ -4,7 +4,6 @@ use App\Http\Controllers\AboutPageController;
 use App\Http\Controllers\Api\HomeContentController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactPageController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\ProductApController;
 use App\Http\Controllers\ProductArController;

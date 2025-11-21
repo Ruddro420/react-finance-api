@@ -1,10 +1,7 @@
 <?php
 
-use App\Http\Controllers\AboutPageController;
 use App\Http\Controllers\Api\HomeContentController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactPageController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\ProductApController;
 use App\Http\Controllers\ProductArController;
@@ -49,10 +46,3 @@ Route::apiResource('productap', ProductApController::class);
 
 
 Route::apiResource('productar', ProductArController::class);
-
-
-Route::apiResource('blogs', BlogController::class);
-
-Route::apiResource('about', AboutPageController::class);
-
-Route::get('/dashboarddata', [DashboardController::class, 'getDashboardData']);
